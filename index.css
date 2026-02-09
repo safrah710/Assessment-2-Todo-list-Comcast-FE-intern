@@ -1,0 +1,158 @@
+*{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  margin:0px;
+  padding:0px;
+}
+.main{
+    width:80%;
+    height:450px;
+    margin-top:50px;
+    margin-left:100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius:20px;
+    background-color:#F0F1F6;
+    padding:20px;
+    overflow-y: auto;       
+    overflow-x: hidden;         
+}
+.main1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.p1,.p2{
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      color: #2F4E7A;
+      font-weight: 300; 
+}
+.l1{
+    border:1px solid rgb(215, 216, 224);
+}
+.input-field{
+    padding:20px 40px;
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    
+}
+.inp1{
+    padding:10px;
+    width:500px;
+    border:none;
+    border-radius:10px;
+    border:1px solid skyblue;
+     font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #3f4650;
+    font-weight: 300;
+    outline:none;
+}
+.sel1{
+    padding:10px 20px;
+    width:200px;
+    border:none;
+    border-radius:10px;
+    border:1px solid skyblue;
+     font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #3f4650;
+    font-weight: 300;
+    outline:none;}
+.btn1{
+    padding:10px 20px;
+    width:200px;
+    border:none;
+    border-radius:10px;
+    background-color: rgb(109, 200, 253);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #3f4650;
+    font-weight: 300;
+}
+.inp1:focus,.sel1:focus{
+background-color: rgb(47, 78, 122,0.1)
+}
+.btn1:active{
+    opacity:0.5;
+}
+.cards{
+    padding:30px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    flex-wrap:wrap;
+    gap:60px;
+
+}
+.card-info{
+    padding:30px;
+    width:200px;
+    height:100px;
+    border:1px solid rgb(196, 207, 212);
+    background-color: white;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    position:relative;
+}
+.card-p1{
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      color: #2F4E7A;
+      font-weight: 600; 
+}
+.card-red{
+ background-color: red;
+ color:white;
+ border:none;
+ padding:5px 5px;
+ border-radius:10px;
+}
+.card-green{
+ background-color:green;
+ color:white;
+ border:none;
+ padding:5px 5px;
+ border-radius:10px;
+}
+.card-yellow{
+ background-color: orange;
+ color:white;
+ border:none;
+ padding:5px 5px;
+ border-radius:10px;
+}
+.card-del{
+ background-color: rgb(109, 200, 253);
+ color:white;
+ border:none;
+ padding:5px 10px;
+ border-radius:10px;
+}
+.card-del:hover{
+    background-color: rgb(165, 255, 165);
+}
+.btns{
+    display:flex;
+    gap:10px;
+}
+.notasks{
+    text-align: center;
+    margin-left: 280px;
+    margin-top:100px;
+    color: #5489d4;
+
+}
+.Edit{
+ background-color: blue;
+ color:white;
+ border:none;
+ padding:5px 10px;
+ border-radius:10px;
+}
+.Edit:hover{
+    opacity:0.5;
+}
